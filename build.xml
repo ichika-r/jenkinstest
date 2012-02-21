@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Shift_JIS" ?>
 <project name="sample_project" default="main" basedir=".">
 	<!-- mainターゲット -->
-	<target name="main" depends="clean,init,war">
+	<target name="main" depends="clean,init,test,war">
 	</target>
 	
 	<!-- ソースコード関連パスの設定 -->
